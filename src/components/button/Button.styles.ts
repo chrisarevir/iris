@@ -1,14 +1,25 @@
 import styled from "styled-components";
 
 export const StyledButton = styled.button`
-  color: black;
+  /* resets */
+  box-sizing: border-box;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+
+  /* styles */
+
   background-color: white;
-  border-width: 2px;
   border-color: gray;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 2px;
+  color: black;
+  padding: 8px;
 
   &:hover {
-    color: white;
-    background-color: blue;
-    border-color: black;
+    border-color: blue;
   }
 `;
